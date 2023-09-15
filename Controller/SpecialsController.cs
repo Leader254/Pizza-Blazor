@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 namespace BlazingPizza.Controller
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("specials")]
     public class SpecialsController : ControllerBase
     {
         private readonly PizzaStoreContext _context;
